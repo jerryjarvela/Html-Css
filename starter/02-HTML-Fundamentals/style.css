@@ -1,0 +1,56 @@
+body {
+  font-family: sans-serif;
+  border: black 5px solid;
+}
+
+.main-header {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: #e7e7e7b7;
+}
+
+.price-tag {
+  font-size: 30px;
+}
+
+.child-info {
+  font-weight: bold;
+  color: #696969b7;
+}
+
+.link {
+  color: #000;
+}
+
+.link:hover {
+  text-decoration: none;
+}
+
+.product-details {
+  text-transform: uppercase;
+}
+
+.list {
+  list-style: square;
+}
+
+.button {
+  border: none;
+  background-color: #000;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+.button a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: #fff;
+}
+
+.button a:hover {
+  color: #000;
+}
