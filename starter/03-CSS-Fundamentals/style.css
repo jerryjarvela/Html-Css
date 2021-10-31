@@ -38,6 +38,14 @@ h4 {
   text-align: center;
 }
 
+aside {
+  background-color: #f7f7f7;
+  border-top: 5px solid #1098ad;
+  border-bottom: 5px solid #1098ad;
+  padding: 50px 0;
+  width: 500px;
+}
+
 article {
   margin-bottom: 50px;
 }
@@ -46,17 +54,6 @@ p {
   font-size: 22px;
   line-height: 1.5;
   margin-bottom: 15px;
-}
-
-/* footer p {
-  font-size: 16px;
-} */
-
-aside {
-  background-color: #f7f7f7;
-  border-top: 5px solid #1098ad;
-  border-bottom: 5px solid #1098ad;
-  padding: 50px 0;
 }
 
 ul,
@@ -79,10 +76,6 @@ li:last-child {
   margin-bottom: 0;
 }
 
-/* li:nth-child(even) {
-  color: red;
-} */
-
 #author {
   font-style: italic;
   font-size: 18px;
@@ -96,10 +89,16 @@ li:last-child {
   background-color: #f7f7f7;
   padding: 20px 40px;
   margin-bottom: 60px;
+  height: 80px;
 }
 
 .post-header {
   margin-bottom: 60px;
+}
+
+.post-img {
+  width: 100%;
+  height: auto;
 }
 
 .related {
