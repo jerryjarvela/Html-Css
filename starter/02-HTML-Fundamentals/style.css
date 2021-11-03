@@ -1,5 +1,6 @@
 body {
   font-family: sans-serif;
+  padding: 50px;
 }
 
 .container {
@@ -16,6 +17,21 @@ body {
   padding-top: 20px;
   padding-bottom: 20px;
   margin: 0;
+
+  position: relative;
+}
+
+.main-header::before {
+  content: "S A L E";
+  font-style: bold;
+  font-size: 13px;
+  color: #fff;
+  background-color: red;
+  padding: 10px 10px;
+
+  position: absolute;
+  top: -20px;
+  left: -20px;
 }
 
 .price-tag {
@@ -35,6 +51,54 @@ body {
 
 .link:hover {
   text-decoration: none;
+}
+
+.color-list {
+  list-style: square;
+  padding: 10px;
+  display: block;
+}
+
+.ul-black {
+  background-color: black;
+  padding: 10px 10px;
+  margin: 5px 10px;
+  display: inline-block;
+}
+
+.ul-blue {
+  background-color: cadetblue;
+  padding: 10px 10px;
+  margin: 5px 10px;
+  display: inline-block;
+}
+
+.ul-red {
+  background-color: red;
+  padding: 10px 10px;
+  margin: 5px 10px;
+  display: inline-block;
+}
+
+.ul-orange {
+  background-color: orange;
+  padding: 10px 10px;
+  margin: 5px 10px;
+  display: inline-block;
+}
+
+.ul-green {
+  background-color: green;
+  padding: 10px 10px;
+  margin: 5px 10px;
+  display: inline-block;
+}
+
+.ul-brown {
+  background-color: burlywood;
+  padding: 10px 10px;
+  margin: 5px 10px;
+  display: inline-block;
 }
 
 .product-details {
